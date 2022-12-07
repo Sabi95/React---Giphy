@@ -11,7 +11,7 @@ const giphy = require('giphy-api')({
 
 const App = () => {
   const [gifIdSelected, setGifIdSelected] = useState("WuGSL4LFUMQU");
-  const [giIdList, setGiIdList] = useState(["WuGSL4LFUMQU", "HuVCpmfKheI2Q", "u6uAu3yyDNqRq"]);
+  const [gifIdList, setGiIdList] = useState(["WuGSL4LFUMQU", "HuVCpmfKheI2Q", "u6uAu3yyDNqRq"]);
   const fetchGiphy = (keyword) => {
     giphy.search({
       q: keyword,
